@@ -1,0 +1,58 @@
+@import "normalize.scss";
+@import "header.scss";
+@import "menu.scss";
+@import "footer.scss";
+
+.top-area-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  max-width: 1155px;
+  max-height: 1364px;
+}
+
+.head-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.head-nav {
+  z-index: 1;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  width: 70%;
+  margin-right: 90px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    color: #ffffff;
+  }
+}
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 122px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.01em;
+  color: #555555;
+  width: 626px;
+}
+.top-area {
+  height: 80vh;
+  max-height: 1110px;
+  z-index: 2;
+  p {
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #555555;
+  }
+}
