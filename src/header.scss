@@ -1,0 +1,22 @@
+.head-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.head-nav {
+  z-index: 1;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  width: 55%;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  a {
+    color: #ffffff;
+  }
+}
