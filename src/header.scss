@@ -10,7 +10,13 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
-  width: 55%;
+  width: 60%;
+  @media screen and (max-width: 1245px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 885px) {
+    display: none;
+  }
 
   ul {
     display: flex;
