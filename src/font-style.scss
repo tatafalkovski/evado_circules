@@ -1,0 +1,69 @@
+span {
+  font-size: 48px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 122px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.01em;
+  color: #555555;
+  max-width: 626px;
+
+  @media screen and (max-width: 1245px) {
+    font-size: 60px;
+    margin: 0;
+    line-height: 85px;
+  }
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 88px;
+  letter-spacing: 0.05em;
+  color: #555555;
+  position: relative;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.05em;
+  color: #555555;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #2b6995;
+  white-space: nowrap;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+h6 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  color: #000000;
+}
