@@ -14,7 +14,7 @@ h1 {
   max-width: 626px;
 
   @media screen and (max-width: 1245px) {
-    font-size: 60px;
+    font-size: calc(48px + (100 - 48) * ((100vw - 320px) / (1200 - 320)));
     margin: 0;
     line-height: 85px;
   }
@@ -22,13 +22,16 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.05em;
   color: #555555;
   position: relative;
   text-transform: uppercase;
   margin: 20px 0;
+  @media screen and (max-width: 1245px) {
+    font-size: calc(36px + (100 - 36) * ((100vw - 320px) / (1200 - 320)));
+  }
 }
 
 h3 {

@@ -6,46 +6,6 @@
 @import "header.scss";
 @import "footer.scss";
 
-.button {
-  background: #9dd524;
-  border-radius: 60px;
-  padding: 30px 65px;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.01em;
-  text-transform: uppercase;
-  color: #ffffff;
-
-  @media screen and (max-width: 1245px) {
-    padding: 20px 30px;
-    font-size: 15px;
-  }
-
-  &-phone {
-    padding: 20px;
-    display: inline-block;
-    position: absolute;
-    right: 20px;
-
-    @media screen and (max-width: 1245px) {
-      padding: 13px;
-    }
-  }
-}
-
-.button:active {
-  background: #ffffff;
-  border: 2px solid #9dd524;
-  color: #9dd524;
-  box-shadow: none;
-}
-
-.button-phone:active {
-  background: #9dd524;
-}
-
 .link-more {
   font-weight: normal;
   font-size: 18px;

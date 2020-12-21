@@ -10,10 +10,10 @@
     display: none;
     align-items: center;
     position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 26px;
-    height: 26px;
+    top: 30px;
+    right: 50px;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
     z-index: 1;
 
@@ -26,19 +26,22 @@
     & > span::after {
       display: block;
       position: absolute;
-      width: 100%;
+      top: 10px;
+      width: 30px;
       height: 2px;
-      background-color: #fff;
+      background-color: #555555;
       content: "";
     }
 
     & > span {
       &::after {
-        top: 8px;
+        top: 10px;
+        width: 20px;
       }
 
       &::before {
-        top: -8px;
+        top: 20px;
+        width: 35px;
       }
     }
   }
