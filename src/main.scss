@@ -4,6 +4,8 @@
 @import "flex-box.scss";
 @import "menu-box.scss";
 @import "header.scss";
+@import "benefits.scss";
+@import "choices.scss";
 @import "footer.scss";
 
 .link-more {
@@ -12,74 +14,6 @@
   line-height: 22px;
   letter-spacing: 0.05em;
   color: #2b6995;
-}
-
-.benefits {
-  h2 {
-    text-align: center;
-  }
-
-  p {
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-  }
-
-  h5 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.05em;
-    text-transform: capitalize;
-  }
-}
-
-.benefits-wrap {
-  display: flex;
-  justify-content: space-between;
-  margin: 100px 0;
-}
-
-.flex-column {
-  &-left {
-    text-align: right;
-  }
-
-  &-center {
-    margin: 0 120px;
-  }
-
-  &-right {
-  }
-}
-
-.blue-field {
-  background-color: #2b6995;
-  padding: 100px 90px;
-  width: 50%;
-
-  p,
-  h5 {
-    color: #ffffff;
-  }
-
-  .flex-wrap {
-    margin: 0;
-
-    .wrap__image {
-      width: 10%;
-    }
-
-    .wrap__text {
-      width: 70%;
-
-      p {
-        width: 100%;
-      }
-    }
-  }
 }
 
 .flex-wrap-team {

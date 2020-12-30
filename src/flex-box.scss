@@ -32,7 +32,7 @@ main {
   align-items: center;
   margin-bottom: 220px;
 
-  @media screen and (max-width: 902px) {
+  @media screen and (max-width: 1200px) {
     display: block;
   }
 
@@ -49,7 +49,7 @@ main {
     &__text {
       width: 40%;
 
-      @media screen and (max-width: 902px) {
+      @media screen and (max-width: 1200px) {
         width: 100%;
       }
 
@@ -72,7 +72,7 @@ main {
     &__image {
       width: 55%;
 
-      @media screen and (max-width: 902px) {
+      @media screen and (max-width: 1200px) {
         width: 100%;
       }
 

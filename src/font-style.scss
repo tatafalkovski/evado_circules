@@ -30,7 +30,7 @@ h2 {
   text-transform: uppercase;
   margin: 20px 0;
   @media screen and (max-width: 1245px) {
-    font-size: calc(36px + (100 - 36) * ((100vw - 320px) / (1200 - 320)));
+    font-size: calc(36px + (72 - 36) * ((100vw - 320px) / (1200 - 320)));
   }
 }
 
@@ -41,6 +41,9 @@ h3 {
   line-height: 59px;
   letter-spacing: 0.05em;
   color: #555555;
+  @media screen and (max-width: 1245px) {
+    font-size: calc(30px + (48 - 30) * ((100vw - 320px) / (1200 - 320)));
+  }
 }
 
 h4 {
@@ -51,6 +54,9 @@ h4 {
   letter-spacing: 0.05em;
   color: #2b6995;
   white-space: nowrap;
+  @media screen and (max-width: 1245px) {
+    font-size: calc(18px + (36 - 18) * ((100vw - 320px) / (1200 - 320)));
+  }
 }
 
 h5 {
@@ -60,6 +66,9 @@ h5 {
   letter-spacing: 0.05em;
   text-transform: capitalize;
   color: #000000;
+  @media screen and (max-width: 1245px) {
+    font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1200 - 320)));
+  }
 }
 
 h6 {
@@ -69,4 +78,7 @@ h6 {
   letter-spacing: 0.05em;
   text-transform: capitalize;
   color: #000000;
+  @media screen and (max-width: 1245px) {
+    font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1200 - 320)));
+  }
 }
