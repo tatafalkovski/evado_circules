@@ -30,7 +30,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 220px;
+  // margin-bottom: 220px;
 
   @media screen and (max-width: 1200px) {
     display: block;
@@ -41,7 +41,6 @@ main {
     font-size: 20px;
     line-height: 29px;
     letter-spacing: 0.05em;
-    color: #000000;
     margin-bottom: 40px;
   }
 

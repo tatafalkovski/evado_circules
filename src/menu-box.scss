@@ -78,13 +78,10 @@
   }
 
   &__item {
-    color: #ffffff;
 
     @media screen and (max-width: 902px) {
-      color: #243b42;
       display: block;
       padding: 12px 24px;
-      color: #333;
       font-size: 20px;
       font-weight: 600;
       text-decoration: none;

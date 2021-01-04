@@ -10,7 +10,6 @@ h1 {
   display: flex;
   align-items: flex-end;
   letter-spacing: 0.01em;
-  color: #555555;
   max-width: 626px;
 
   @media screen and (max-width: 1245px) {
@@ -25,7 +24,6 @@ h2 {
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.05em;
-  color: #555555;
   position: relative;
   text-transform: uppercase;
   margin: 20px 0;
@@ -40,7 +38,6 @@ h3 {
   font-size: 48px;
   line-height: 59px;
   letter-spacing: 0.05em;
-  color: #555555;
   @media screen and (max-width: 1245px) {
     font-size: calc(30px + (48 - 30) * ((100vw - 320px) / (1200 - 320)));
   }
@@ -52,7 +49,6 @@ h4 {
   line-height: 44px;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #2b6995;
   white-space: nowrap;
   @media screen and (max-width: 1245px) {
     font-size: calc(18px + (36 - 18) * ((100vw - 320px) / (1200 - 320)));
@@ -65,7 +61,6 @@ h5 {
   line-height: 37px;
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  color: #000000;
   @media screen and (max-width: 1245px) {
     font-size: calc(18px + (30 - 18) * ((100vw - 320px) / (1200 - 320)));
   }
@@ -77,8 +72,29 @@ h6 {
   line-height: 24px;
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  color: #000000;
+
   @media screen and (max-width: 1245px) {
     font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1200 - 320)));
   }
+}
+.text-black {
+  color: #000000;
+}
+.text-white {
+  color: #ffffff;
+}
+.text-gray {
+  color: #555555;
+}
+.text-blue {
+  color: #2b6995;
+}
+.text-dark-blue {
+  color: #243b42;
+}
+.text-dark-gray {
+  color: #333;
+}
+.indent-zero {
+margin: 0;
 }
