@@ -1,0 +1,33 @@
+.action {
+    background: linear-gradient(
+      90deg,
+      rgba(43, 105, 149, 0.7) 0%,
+      rgba(115, 169, 196, 0.7) 51.56%,
+      rgba(202, 240, 248, 0.7) 100%
+    );
+    position: relative;
+    width: 100%;
+    padding: 60px 0;
+  
+    &-height {
+      height: 712px;
+      margin-bottom: 200px;
+      margin-top: 260px;
+    }
+  
+    p {
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: 0.05em;
+      margin-bottom: 29px;
+    }
+}
+
+.cell-phone-img {
+    width: 449px;
+    height: 839px;
+}
+
+.text-wrap-action {
+    text-align: center;
+}

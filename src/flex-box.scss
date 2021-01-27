@@ -52,16 +52,9 @@ main {
         width: 100%;
       }
 
-      &-action {
-        width: 65%;
-        margin-top: -200px;
-
-        @media screen and (max-width: 902px) {
-          width: 100%;
-        }
-      }
       p {
         width: 70%;
+
         @media screen and (max-width: 902px) {
           width: 100%;
         }
@@ -83,4 +76,15 @@ main {
       }
     }
   }
+}
+
+.flex-wrap-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.flex-wrap-team {
+  align-items: flex-start;
 }

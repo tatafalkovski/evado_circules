@@ -1,4 +1,5 @@
 @import "normalize.scss";
+@import "margin.scss";
 @import "font-style.scss";
 @import "top-area.scss";
 @import "flex-box.scss";
@@ -6,6 +7,7 @@
 @import "header.scss";
 @import "benefits.scss";
 @import "choices.scss";
+@import "work-together.scss";
 @import "footer.scss";
 
 .link-more {
@@ -15,108 +17,15 @@
   letter-spacing: 0.05em;
 }
 
-.flex-wrap-team {
-  align-items: flex-start;
-}
-
-.working-steps__line {
-  width: 69%;
-  height: 1px;
-  background-color: #555555;
-  position: absolute;
-  top: 122px;
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  background-color: #555555;
-  border-radius: 20px;
-  position: absolute;
-  top: -5px;
-
-  &-1 {
-    left: 0;
-  }
-
-  &-2 {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  &-3 {
-    right: 0;
-  }
-}
-
 .step {
   text-align: center;
   position: relative;
   padding: 110px 0 0 0;
-  width: 30%;
+  width: 320px;
+  min-width: 220px;
 
   &-button {
     padding: 0;
-  }
-}
-
-.working-steps {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-}
-
-.working-steps__circules-flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.circule {
-  border: 1px solid #555555;
-  // padding: 15px 33px;
-  width: 90px;
-  height: 90px;
-  border-radius: 90px;
-  font-size: 48px;
-  line-height: 59px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-  &-1 {
-  }
-  &-2 {
-  }
-  &-3 {
-  }
-}
-
-.action {
-  background: linear-gradient(
-    90deg,
-    rgba(43, 105, 149, 0.7) 0%,
-    rgba(115, 169, 196, 0.7) 51.56%,
-    rgba(202, 240, 248, 0.7) 100%
-  );
-  position: relative;
-  width: 100%;
-
-  &-height {
-    height: 712px;
-    margin-bottom: 200px;
-    margin-top: 260px;
-  }
-
-  p {
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.05em;
-    margin-bottom: 60px;
   }
 }
 
@@ -305,7 +214,6 @@
 
 .action-frase {
   text-align: center;
-  margin-bottom: 200px;
 
   .button {
     margin: 0 auto 100px;
