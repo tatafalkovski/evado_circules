@@ -1,0 +1,58 @@
+.team {
+    border: 1px solid #c4c4c4;
+    width: 30%;
+    min-width: 320px;
+    @media screen and (max-width: 1000px) {
+      width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.team__img-field {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    &-1 {
+
+    }
+  
+    &-2 {
+
+    }
+  
+    &-3 {
+
+    }
+  }
+  .team__icon {
+    position: absolute;
+    right: -2px;
+    bottom: -45px;
+  
+    img {
+      width: 90px;
+      height: 90px;
+
+      @media screen and (max-width: 902px) {
+        width: 70px;
+        height: 70px;
+        }
+    }
+  }
+  
+  .team__text-field {
+    padding: 45px 30px 80px 50px;
+
+  @media screen and (max-width: 902px) {
+      padding: 23px 30px 40px 30px;
+  }
+    p {
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+    }
+  }
+  

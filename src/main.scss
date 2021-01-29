@@ -1,6 +1,5 @@
 @import "normalize.scss";
 @import "margin.scss";
-@import "font-style.scss";
 @import "top-area.scss";
 @import "flex-box.scss";
 @import "menu-box.scss";
@@ -8,7 +7,10 @@
 @import "benefits.scss";
 @import "choices.scss";
 @import "work-together.scss";
+@import "our-team-section.scss";
 @import "footer.scss";
+@import "font-style.scss";
+
 
 .link-more {
   font-weight: normal;
@@ -17,6 +19,7 @@
   letter-spacing: 0.05em;
 }
 
+// section Steps
 .step {
   text-align: center;
   position: relative;
@@ -29,67 +32,13 @@
   }
 }
 
-.align-right {
-  text-align: right;
-  margin-bottom: 100px;
-}
+// Quote scetion
 
-.team {
-  border: 1px solid #c4c4c4;
-  width: 30%;
-
+.logo {
+width: 50%;
   img {
-    height: 320px;
+    width: 50%;
   }
-}
-
-.team__blue-field {
-  position: relative;
-  display: flex;
-  justify-content: center;
-
-  &-1 {
-    background-color: #caf0f8;
-  }
-
-  &-2 {
-    background-color: #2b6995;
-  }
-
-  &-3 {
-    background-color: #73a9c4;
-  }
-}
-.team__icon {
-  position: absolute;
-  right: -2px;
-  bottom: -45px;
-
-  img {
-    width: 90px;
-    height: 90px;
-  }
-}
-
-.team__text-field {
-  padding: 45px;
-
-  p {
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.05em;
-  }
-}
-
-.quotes {
-  font-size: 96px;
-  line-height: 117px;
-  text-align: center;
-  letter-spacing: 0.05em;
-}
-
-.center {
-  text-align: center;
 }
 
 .img-absolute {
@@ -100,14 +49,9 @@
 }
 
 .lights {
-  background-color: #fafafa;
   width: 100%;
   padding: 100px 0;
   margin-top: 200px;
-
-  .flex-wrap {
-    margin-bottom: 0;
-  }
 }
 
 .images-cell {
@@ -335,115 +279,3 @@
   bottom: 50px;
 }
 
-.form-wrap {
-  width: 40%;
-  margin: 100px 0;
-}
-
-.input-field {
-  margin: 50px 0;
-}
-
-input {
-  padding: 12px 20px;
-  border: none;
-  border-bottom: 1px solid #000000;
-  display: inline-block;
-  width: 100%;
-  outline: none;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.05em;
-}
-
-label {
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-}
-
-.footer-container {
-  position: relative;
-  width: 100%;
-}
-
-.bg-wrap-foot {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  z-index: -1;
-
-  .foot-bg {
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-image: url(/images/footer-img.png);
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-  }
-}
-
-.content-wrapper {
-  margin: 0 auto;
-  padding: 0 15px;
-  width: 100%;
-  max-width: 1500px;
-  position: absolute;
-  top: 200px;
-}
-
-.flex-wrap-foot {
-  display: flex;
-  justify-content: space-around;
-}
-
-.foot-image {
-  width: 100%;
-  position: relative;
-
-  img {
-    width: 100%;
-  }
-
-  .phone-image {
-    width: 912px;
-    height: 912px;
-    position: absolute;
-    bottom: 150px;
-    right: 0;
-    z-index: -1;
-
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-}
-
-.navigate {
-  width: 20%;
-
-  a {
-    display: block;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 45px;
-    letter-spacing: 0.01em;
-  }
-
-  .flex-wrap {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding-bottom: 20px;
-  }
-}
